@@ -77,7 +77,7 @@ def HiLo(count, board):
     subCount = ['2', '3', '4', '5', '6']
     addCount = ['10', 'Jack', 'Queen', 'King', 'Ace']
     neutralCount = ['7', '8', '9']
-    subCnt = -1
+    subCnt = 1
     addCnt = 1
     for i in board:
         if i in neutralCount:
